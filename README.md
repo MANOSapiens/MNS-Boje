@@ -1,5 +1,8 @@
 # **Bauanleitung für die MANOSapiens-Boje**
 
+![grafik](https://github.com/user-attachments/assets/08ee2f3a-b324-41eb-b278-dc2fc6bddd26)
+
+
 ## **1. Benötigte Komponenten**
 ### **3D-gedruckte Teile:**
 - **Boje-Oberteil (Solardeckel)** – Integrierte Halterungen für zwei Solarpanels.
@@ -62,5 +65,3 @@
 - **Mesh-Netzwerk testen**: Überprüfen, ob das **LoRa-Signal benachbarte Bojen erreicht**.
 
 ---
-
-Diese modulare Boje ist für eine **kostengünstige, Open-Source-Umwelt-Datenerfassung** ausgelegt und eignet sich **ideal für Forschungsanwendungen in abgelegenen Gebieten**. Falls Anpassungen oder weitere Details benötigt werden, lass es mich wissen! 🚀
