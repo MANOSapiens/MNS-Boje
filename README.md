@@ -1,84 +1,90 @@
-# **🛠️ Bauanleitung für die MANOSapiens-Boje 🌊**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f1782354-2643-4a11-96d7-ef02d58a4eb0" width="800" />
+</p>
 
-## **1. Benötigte Komponenten ⚙️**
-### **3D-gedruckte Teile: 🖨️**
-- **Boje-Oberteil (Solardeckel) ☀️** – Integrierte Halterungen für zwei Solarpanels.
-- **Elektronik-Halterungsplatten 📟** – Mehrere Platten zur gestapelten Befestigung von Platinen und Batterien.
-- **Boje-Unterteil ⚓** – Verschließt die Basis und sorgt für die Befestigung der Gewindestangen.
-- **Batteriehalter 🔋** – Sicherer Halt für drei **18650-Batterien**.
+# Gecko: Open-Source Modular Buoy for Mesh-Connected Ocean Sensing
 
-### **Gekaufte Teile: 🛒**
-- **Bojenkörper 🌊** – Kunststoffrohr mit **20 cm Durchmesser**, variable Länge (30 cm für Boje 1, 50 cm für Boje 2).
-- **Metall-Gewindestangen (M8, Edelstahl) 🔩** – Zur Fixierung der internen Komponenten.
-- **Befestigungsmaterial 🔧 (Muttern, Schrauben und Abstandshalter)** – Für eine stabile Montage.
+## **1. Required Components ⚙️**
 
-### **Elektronik: ⚡**
-- **TTGO T-Beam LoRa ESP32 📡** – Mikrocontroller für Datenerfassung und Mesh-Kommunikation.
-- **Waveshare MPPT Power Management Modul 🔄** – Effiziente Solarladeregelung.
-- **Solarpanels (2x) ☀️** – Auf der Oberseite zur kontinuierlichen Stromversorgung.
-- **18650-Batterien (3x) 🔋** – Energiespeicher für den Nachtbetrieb.
+### **3D-Printed Parts: 🖨️**
+- **Buoy Top (Solar Cap) ☀️** – Integrated mounts for two solar panels.  
+- **Electronics Mounting Plates 📟** – Multiple plates for stacking circuit boards and batteries.  
+- **Buoy Bottom ⚓** – Seals the base and allows mounting of the threaded rods.  
+- **Battery Holder 🔋** – Secure hold for three **18650 batteries**.
 
----
+### **Purchased Parts: 🛒**
+- **Buoy Body 🌊** – Plastic tube with **20 cm diameter**, variable length (30 cm for Buoy 1, 50 cm for Buoy 2).  
+- **Metal Threaded Rods (M8, stainless steel) 🔩** – For securing internal components.  
+- **Mounting Hardware 🔧 (nuts, bolts, and spacers)** – For stable assembly.
 
-## **2. Montageanleitung 🔨**
-
-### **Schritt 1: Vorbereitung des Hauptkörpers 🏗️**
-1. **Das Kunststoffrohr auf die gewünschte Länge zuschneiden ✂️** (**30 cm oder 50 cm**).
-2. Sicherstellen, dass beide Enden **glatt und eben** sind, um eine dichte Versiegelung mit den 3D-gedruckten Kappen zu gewährleisten.
-
-### **Schritt 2: Einsetzen der Gewindestangen 🔩**
-1. **Vier M8-Gewindestangen** durch die Löcher der Unterkappe führen.
-2. Mit **Muttern und Unterlegscheiben** fixieren, um sie in Position zu halten.
-
-### **Schritt 3: Montage der Elektronik ⚙️**
-1. **Die 3D-gedruckten Halteplatten 📟** auf die Stangen stapeln:
-   - **Untere Ebene 🔋**: Batteriehalter für die drei **18650-Batterien**.
-   - **Mittlere Ebene 🔄**: **Waveshare MPPT Power Management Modul**.
-   - **Obere Ebene 📡**: **TTGO T-Beam LoRa ESP32**.
-2. Jede Ebene mit **Abstandshaltern und Muttern 🔧** sichern, um ein Verrutschen zu verhindern.
-
-### **Schritt 4: Verkabelung der Elektronik 🔌**
-1. **Solarpanels mit dem MPPT-Modul verbinden ☀️🔗**.
-2. **MPPT-Modul mit dem Batteriepack verkabeln 🔋** (auf richtige Polarität achten ⚠️).
-3. **TTGO T-Beam ESP32 mit dem Stromversorgungssystem verbinden 📡**.
-4. **GPS-Antenne befestigen 🌍** und für optimalen Empfang positionieren.
-
-### **Schritt 5: Hinzufügen von Sensoren oder eigenen Modulen 🛠️**
-1. Falls benötigt, zusätzliche **Sensoren oder Module 📟** auf einer separaten Ebene oder in den vorhandenen Ebenen montieren.
-2. Die Sensoren mit dem **TTGO T-Beam ESP32 oder einer zusätzlichen Steuerplatine** verbinden.
-3. Sicherstellen, dass die Stromversorgung korrekt dimensioniert ist und die Verkabelung sauber bleibt.
-
-### **Schritt 6: Boje verschließen 🚢**
-1. **Die Oberkappe (Solardeckel) mit den Solarpanels befestigen ☀️**.
-2. **Alle Öffnungen mit Dichtmittel (z. B. Dichtol oder Silikon) abdichten 🏗️**.
-3. **Ober- und Unterkappe mit Muttern an den Stangen festziehen 🔩**, um eine stabile Fixierung zu gewährleisten.
-
-### **Schritt 7: Funktionstest ✅**
-1. **System einschalten ⏻** und den **Batterieladezustand 🔋 überprüfen**.
-2. **LoRa-Kommunikation mit einem anderen Meshtastic-Knoten testen 📡**.
-3. **Solar-Ladefunktion bei Tageslicht ☀️ überprüfen**.
-4. **GPS-Signalempfang sicherstellen 🌍**.
+### **Electronics: ⚡**
+- **TTGO T-Beam LoRa ESP32 📡** – Microcontroller for data collection and mesh communication.  
+- **Waveshare MPPT Power Management Module 🔄** – Efficient solar charging regulation.  
+- **Solar Panels (2x) ☀️** – Mounted on the top for continuous power supply.  
+- **18650 Batteries (3x) 🔋** – Energy storage for nighttime operation.
 
 ---
 
-## **3. Einsatz und Optimierung 🚀**
-- **Aufstellungsort 📍**: Ein Standort mit **maximaler Sonneneinstrahlung ☀️** gewährleistet eine optimale Solarleistung.
-- **Wasserdichtigkeit testen 💦**: Vor dem Langzeiteinsatz kurz unter Wasser halten, um **Dichtigkeit zu prüfen 🏗️**.
-- **Mesh-Netzwerk testen 📶**: Überprüfen, ob das **LoRa-Signal benachbarte Bojen erreicht 📡**.
+## **2. Assembly Instructions 🔨**
+
+### **Step 1: Preparing the Main Body 🏗️**
+1. **Cut the plastic tube to the desired length ✂️** (**30 cm or 50 cm**).  
+2. Ensure both ends are **smooth and flat** to allow a tight seal with the 3D-printed caps.
+
+### **Step 2: Inserting the Threaded Rods 🔩**
+1. Insert **four M8 threaded rods** through the holes in the bottom cap.  
+2. Secure them in place using **nuts and washers**.
+
+### **Step 3: Mounting the Electronics ⚙️**
+1. Stack the **3D-printed mounting plates 📟** onto the rods:
+   - **Bottom Level 🔋**: Battery holder for the three **18650 batteries**.  
+   - **Middle Level 🔄**: **Waveshare MPPT Power Management Module**.  
+   - **Top Level 📡**: **TTGO T-Beam LoRa ESP32**.
+2. Secure each level with **spacers and nuts 🔧** to prevent movement.
+
+### **Step 4: Wiring the Electronics 🔌**
+1. **Connect the solar panels to the MPPT module ☀️🔗**.  
+2. **Wire the MPPT module to the battery pack 🔋** (observe correct polarity ⚠️).  
+3. **Connect the TTGO T-Beam ESP32 to the power supply system 📡**.  
+4. **Attach the GPS antenna 🌍** and position it for optimal reception.
+
+### **Step 5: Adding Sensors or Custom Modules 🛠️**
+1. If needed, mount additional **sensors or modules 📟** on a separate level or existing layers.  
+2. Connect sensors to the **TTGO T-Beam ESP32 or an additional control board**.  
+3. Ensure proper power distribution and clean wiring.
+
+### **Step 6: Sealing the Buoy 🚢**
+1. **Attach the top cap (solar lid) with the solar panels ☀️**.  
+2. **Seal all openings using sealant (e.g., Dichtol or silicone) 🏗️**.  
+3. **Tighten the top and bottom caps with nuts on the rods 🔩** for a stable fit.
+
+### **Step 7: Function Test ✅**
+1. **Power on the system ⏻** and **check battery charge 🔋**.  
+2. **Test LoRa communication with another Meshtastic node 📡**.  
+3. **Verify solar charging function in daylight ☀️**.  
+4. **Ensure GPS signal reception 🌍**.
 
 ---
 
-## **4. Anpassung der Firmware für eigene Module 💻**
-1. Firmware-Source-Compiling-Setup über diese Anleitung: [Meshtastic Firmware Build](https://meshtastic.org/docs/development/firmware/build/).
-2. Starte, indem du das Template unter `src/modules/GECKOBCustomTemplate.cpp` und `.h` kopierst und den beiden Dateien einen neuen Namen gibst.
-3. Dann gehe zu `src/modules/Modules.cpp` und füge folgendes hinzu:
+## **3. Deployment and Optimization 🚀**
+
+- **Deployment Location 📍**: Choose a site with **maximum sunlight ☀️** for best solar performance.  
+- **Waterproofing Test 💦**: Briefly submerge before long-term use to **check watertightness 🏗️**.  
+- **Mesh Network Check 📶**: Verify that the **LoRa signal reaches nearby buoys 📡**.
+
+---
+
+## **4. Customizing Firmware for Your Own Modules 💻**
+
+1. Set up firmware source compiling using this guide: [Meshtastic Firmware Build](https://meshtastic.org/docs/development/firmware/build/).  
+2. Start by copying the template from `src/modules/GECKOBCustomTemplate.cpp` and `.h`, and rename both files.  
+3. Then go to `src/modules/Modules.cpp` and add:
    ```cpp
-   #include "modules/[NAME_DES_MODULS].h"
+   #include "modules/[NAME_OF_MODULE].h"
    ```
-   und unter der Funktion `setupModules()`:
+And inside the setupModules() function:
    ```cpp
-   [NAME_DES_MODULS_IN_SNAKE_CASE] = new [NAME_DES_MODULS]();
+[NAME_OF_MODULE_IN_SNAKE_CASE] = new [NAME_OF_MODULE]();
    ```
-   Ersetze die Platzhalter entsprechend.
-4. Baue und lade die Firmware hoch gemäß der Anleitung der Webseite.
-
+Replace the placeholders accordingly.
+4. Build and upload the firmware according to the website instructions.
