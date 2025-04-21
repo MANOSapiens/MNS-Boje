@@ -4,6 +4,9 @@
 
 # Gecko: Open-Source Modular Buoy for Mesh-Connected Ocean Sensing
 
+Here is the link to the CAD-Design on Onshape: [Link](https://cad.onshape.com/documents/ea01c70c36b461a0f271d107/w/832bf2bbf60a0410c8fad965/e/697b2a0bb5872bcde53edcb4?renderMode=0&uiState=67bf4560d9fa1e0128af2ed7)
+If you get a 403 Forbidden error, just copy and paste the link manually in the browser.
+
 ## **1. Required Components ⚙️**
 
 ### **3D-Printed Parts: 🖨️**
